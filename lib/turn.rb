@@ -44,3 +44,6 @@ def turn(board)
 else  turn(board)
 end
 end
+def move(board,position,player = "X")
+  puts display_board(board)
+end
